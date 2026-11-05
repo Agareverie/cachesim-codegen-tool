@@ -27,8 +27,8 @@ A Python utility package handles configuration, C code generation, and visualiza
 Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/Agareverie/cachesim-codegen-tool.git
+cd cachesim-codegen-tool
 ```
 
 ### Option 1: Using uv
