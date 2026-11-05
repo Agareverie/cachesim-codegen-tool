@@ -1,9 +1,9 @@
 [project]
 name = "comp-arch-hw2"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "Python-based tooling to bulk-compile and execute an instructor's Cache Simulator written in C"
 readme = "README.md"
-authors = [{ name = "Agareverie", email = "agareverie@noreply.codeberg.org" }]
+authors = [{ name = "Agareverie", email = "agareverie@noreply.github.com" }]
 requires-python = ">=3.14"
 dependencies = [
     "ipykernel>=7.4.0",
