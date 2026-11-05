@@ -1,0 +1,41 @@
+BasedOnStyle: LLVM
+
+# Indentation
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# Line length
+ColumnLimit: 100
+
+# Braces
+BreakBeforeBraces: Attach
+InsertBraces: true
+
+# Function declarations and calls
+AllowShortFunctionsOnASingleLine: None
+AllowShortBlocksOnASingleLine: Never
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+BinPackArguments: false
+BinPackParameters: BinPack
+AlignAfterOpenBracket: BlockIndent
+
+# Control flow
+IndentCaseLabels: true
+
+# Pointers
+PointerAlignment: Right
+
+# Whitespace
+SpaceBeforeParens: ControlStatements
+DerivePointerAlignment: false
+
+# Includes
+SortIncludes:
+  IgnoreCase: false
+IncludeBlocks: Preserve
+
+# Miscellaneous
+AlignConsecutiveAssignments: None
+AlignConsecutiveDeclarations: None

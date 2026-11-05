@@ -1,0 +1,8 @@
+[tools]
+clang-format = "latest"
+uv = "latest"
+ruff = "latest"
+clang = "latest"
+
+[tasks]
+format = "ruff check --select I --fix . && ruff format . && clang-format -i src/c/*.c src/c/*.h"
